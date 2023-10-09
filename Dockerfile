@@ -15,4 +15,4 @@ RUN apk add --no-cache build-base sqlite-libs sqlite-dev && \
 EXPOSE 80 1080
 
 ENTRYPOINT ["mailcatcher", "--foreground"]
-CMD ["--ip", "0.0.0.0"]
+CMD ["--ip", "127.0.0.1"]
